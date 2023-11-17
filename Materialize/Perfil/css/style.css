@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.2rem;
+}
+
+.sub-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
+
+.parrafo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+.lado{
+    background-color: #237C2C;
+}
+.gris{
+    color: #444444;
+
+}
+
+
+
+nav {
+    z-index: 1000;
+}
+
+.main-content {
+    padding-top: 64px;
+    /* Ajusta el valor según la altura de tu navbar */
+}
+
+.menu {
+    padding-bottom: 3000px;
+}
+.pie{
+    background-color: #444444;
+}

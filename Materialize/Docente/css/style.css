@@ -1,0 +1,84 @@
+
+.menu-lateral{
+    background-color: #237c2c;
+
+}
+
+.texto{
+    color: #ffffff;
+}
+
+.sub-titulo-p {
+    color: #444444;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+
+.encabezado{
+    color: #ffffff;
+    background-color: #18561e;
+    padding: 25px;
+    
+}
+
+.contenido{
+    color:#444444;
+}
+
+.buton1{
+    color: #ffffff;
+    background-color: #237c2c;
+
+}
+
+.conte{
+    color: black;
+    background-color: #f6f6f6;
+}
+
+
+.buton2{
+    color: #ffffff;
+    background-color: #444444;
+}
+
+
+.buton3{
+    color: #ffffff;
+    background-color: #777777;
+}
+
+.info{
+    color: #777777;
+    margin-left: 100px;
+
+}
+
+.cuadrito{
+    background-color: #237c2c;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.logo{
+    background-color: #777777;
+}
+
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.2rem;
+}
+
+.sub-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.parrafo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}

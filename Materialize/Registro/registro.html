@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio de sesion</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway&family=Roboto:wght@500&display=swap");
+
+        header {
+            background-color: #18561e;
+        }
+
+        footer {
+            background-color: #444444;
+        }
+
+        h1 {
+            font-family: "Roboto", sans-serif;
+        }
+
+        h4 {
+            font-family: "Roboto", sans-serif;
+        }
+
+        h2 {
+            font-family: "Roboto", sans-serif;
+        }
+
+        html {
+            font-family: "Raleway", sans-serif;
+        }
+
+        .principal-size {
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-top: 2%;
+            margin-bottom: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header">
+        <img src="images/utp-logo-blanco.png" alt="" height="5%" width="5%" />
+    </header>
+    <div class="center-align" style="background-color: white;">
+        <div class="principal-size">
+            <div class="container section" style="background-color: #f6f6f6; border-radius: 6px;">
+                <div style="margin-left: 10%; margin-right: 10%;">
+                    <div class="section">
+                        <h4>Registro de Usuario</h4>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                        <div class="row">
+                            <div class="row">
+                                <span>Nombre de Usuario</span>
+                                <div class="input-field inline">
+                                    <input placeholder="Ingrese su nombre de usuario" id="name" type="text"
+                                        class="validate">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <span>Direccion de correo</span>
+                                <div class="input-field inline">
+                                    <input placeholder="nombre.apellido@utp.ac.pa" id="email" type="email"
+                                        class="validate">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <span>Contraseña</span>
+                                <div class="input-field inline">
+                                    <input placeholder="Ingrese su contraseña" id="pass" type="password"
+                                        class="validate">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="section">
+                        <h4>Identificación</h4>
+                        <div class="row">
+                            <span>Cédula</span>
+                            <div class="input-field inline">
+                                <input placeholder="00-0000-00000" id="ced" type="text" class="validate">
+                            </div>
+                        </div>
+                        <divr class="row" style="padding-top: 5%; padding-bottom: 5%;">
+                            <a class="btn"
+                                style="margin-right: 10%; background-color: #237c2c; color: white;">Cancelar</a>
+                            <a class="btn" style="background-color: #237c2c; color: white;">Registrarse</a>
+                        </divr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="section footer espacio">
+        <div class="row">
+            <!--Left-->
+            <div class="col s5">
+                <div class="row">
+                    <div class="col s3">
+                        <img src="images/utp-logo-blanco.png" alt="" height="100px" width="100px" />
+                    </div>
+                    <div class="col s7 white-text left-align">
+                        <p>
+                            Este sitio es administrado por la Facultad de Ingeniería en Sistemas Computacionales.
+                            Proyecto web donado por el grupo 1LS121, segundo semestre 2023.
+                            <!--Poner enlace en la palabra 1ls121 que nos lleve a la pagina que presenta a los estudiantes involucrados-->
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!--Center-->
+            <div class="col s4 white-text">
+                <span class="strong">Contacto</span>
+                <br />
+                Avenida Universidad Tecnológica de Panamá, Vía Puente Centenario,
+                Campus Metropolitano Dr. Víctor Levi Sasso, Edificio No. 3, tercer
+                piso.
+                <br />
+                Teléfono: (507) <!--Averiguar telefono de sindy-->
+                <br />
+                E-mail: <span class="subrayado">sindy.delosrios@utp.ac.pa</span>
+            </div>
+
+            <!--Right-->
+            <div class="white-text col s3 center-align">
+                <!--Top spacing for inside the right column in the footer-->
+                <!--Tienen que enlazar a las redes de la fisc-->
+                <div class="row"></div>
+                <div class="row"></div>
+                <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff"></i>
+                <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff"></i>
+                <i class="fa-brands fa-youtube fa-xl" style="color: #ffffff"></i>
+                <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff"></i>
+                <i class="fa-brands fa-x-twitter fa-xl" style="color: #ffffff"></i>
+            </div>
+        </div>
+        <p class="center-align white-text">
+            ©️ 2023 - Universidad Tecnológica de Panamá
+        </p>
+    </footer>
+</body>
+
+</html>

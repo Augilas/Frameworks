@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio de sesion</title>
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway&family=Roboto:wght@500&display=swap");
+      header {
+        background-color: #18561e;
+      }
+
+      footer {
+        background-color: #444444;
+      }
+      h1 {
+        font-family: "Roboto", sans-serif;
+      }
+
+      h4 {
+        font-family: "Roboto", sans-serif;
+      }
+
+      h2 {
+        font-family: "Roboto", sans-serif;
+      }
+
+      html {
+        font-family: "Raleway", sans-serif;
+      }
+
+      .fondo {
+        background-image: url(images/Fondo_uni.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .super-caja {
+        margin-top: 7%;
+        margin-bottom: 7%;
+        width: 66%;
+      }
+
+
+      .borde-redondeado-caja {
+        border-radius: 6px;
+      }
+
+      .borde-redondeado-boton {
+        border-radius: 10px;
+        text-transform: capitalize;
+        font-family: "Raleway", sans-serif;;
+        font-weight: bold;
+      }
+
+      .right {
+        background-color: #237c2c;
+      }
+
+      .subrayado {
+        text-decoration: underline;
+      }
+
+      .strong {
+        font-weight: bold;
+      }
+
+      .espacio {
+        padding-top: 4%;
+      }
+
+      .pass-reset {
+        font-family: "Montserrat", sans-serif;
+        color: black;
+        font-weight: bold;
+        font-size: 1.3rem;
+        margin-top: 1.3%;
+      }
+
+      .matricula {
+        color: white;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <img src="images/utp-logo-blanco.png" alt="" height="5%" width="5%" />
+    </header>
+
+    <!--Actual content-->
+    <section class="section fondo">
+        <!--Top spacing for inside the background container-->
+
+      <!--Will edit this and add own class for margin-->
+
+        <div class=""></div>
+        <!--Super container-->
+        <div class="super-caja borde-redondeado-caja container center-align white row ">
+          <!--Left container-->
+          <div class="container col s7 left-align">
+            <h2>Iniciar Sesión</h2>
+            <form action="">
+              <div class="input-field">
+                <input type="email" name="" id="email" />
+                <label for="email">Nombre de usuario</label>
+              </div>
+
+              <div class="input-field">
+                <input type="password" name="" id="pass" />
+                <label for="pass">Contraseña</label>
+              </div>
+
+              <a href="#" class="borde-redondeado-boton btn-large green darken-3">Iniciar sesion</a>
+            </form>
+          </div>
+
+          <!--Right container-->
+          <div class="borde-redondeado-caja container white-text col s5 right">
+            <!--Top spacing for inside the right container-->
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+            <h4>Registrate</h4>
+            <br />
+            <a href="#" class="borde-redondeado-boton btn-large white black-text valign-wrapper"
+              >Crear cuenta</a
+            >
+            <p class="center-align">
+              Registrarse solamente con su cuenta de correo institucional. Su
+              correo institucional lo puede encontrar en la página web del
+              <span class="subrayado "><a href="#" class="matricula">Sistema de Matrícula.</a></span>
+            </p>
+
+            <!--Bottom spacing for inside the right container-->
+            <div class="row"></div>
+            <div class="row"></div>
+            <div class="row"></div>
+          </div>
+          <!--Bottom text in super container-->
+          <div class="row">
+            <a href="#" class="pass-reset center-align col s12">
+              ¿Olvidó su nombre de usuario o contraseña? <!--Edit this and replace it with a instead of h5-->
+            </a>
+          </div>
+        </div>
+        <!--end super container-->
+
+    </section>
+    <!--End div for background-->
+
+    <!--Footer-->
+    <footer class="section footer espacio">
+      <div class="row">
+        <!--Left-->
+        <div class="col s5">
+          <div class="row">
+            <div class="col s3">
+              <img
+                src="images/utp-logo-blanco.png"
+                alt=""
+                height="100px"
+                width="100px"
+              />
+            </div>
+            <div class="col s7 white-text left-align">
+              <p>
+                Este sitio es administrado por la Facultad de Ingeniería en Sistemas Computacionales.
+                Proyecto web donado por el grupo 1LS121, segundo semestre 2023. <!--Poner enlace en la palabra 1ls121 que nos lleve a la pagina que presenta a los estudiantes involucrados-->
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--Center-->
+        <div class="col s4 white-text">
+            <span class="strong">Contacto</span>
+            <br />
+            Avenida Universidad Tecnológica de Panamá, Vía Puente Centenario,
+            Campus Metropolitano Dr. Víctor Levi Sasso, Edificio No. 3, tercer
+            piso.
+            <br />
+            Teléfono: (507) <!--Averiguar telefono de sindy-->
+            <br />
+            E-mail: <span class="subrayado">sindy.delosrios@utp.ac.pa</span> 
+        </div>
+
+        <!--Right-->
+        <div class="white-text col s3 center-align">
+            <!--Top spacing for inside the right column in the footer-->
+            <!--Tienen que enlazar a las redes de la fisc-->
+          <div class="row"></div>
+          <div class="row"></div>
+          <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff"></i>
+          <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff"></i>
+          <i class="fa-brands fa-youtube fa-xl" style="color: #ffffff"></i>
+          <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff"></i>
+          <i class="fa-brands fa-x-twitter fa-xl" style="color: #ffffff"></i>
+        </div>
+      </div>
+      <p class="center-align white-text">
+        ©️ 2023 - Universidad Tecnológica de Panamá
+      </p>
+    </footer>
+  </body>
+</html>

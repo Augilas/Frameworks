@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    
+    <header class="bg-[#18561E] flex">  
+        <div class="flex h-40">
+            <img class=" h-auto p-7 "  src="/public/img/logo.png" alt="">
+            <div class="text-[#FFFFFF] text-5xl  font-roboto pt-14 mr-40 font-semibold">UTP</div>
+            <div class="text-[#FFFFFF] text-2xl font-roboto p-14 ml-96 float-right">Página Principal</div>
+            <div class="text-[#FFFFFF] text-2xl font-roboto p-14 flex-col justify-end ">Más ▼</div>
+        </div>
+    </header>
+    
+    <!---->
+    <section class=" border-b-dark">
+        <div class="flex flex-col items-center justify-center px-24 py-7 mx-8 ">
+            
+            <div class="w-3/5 border-black  bg-[#F6F6F6] rounded-lg shadow dark:border  ">
+                <div class="p-10 w-auto space-y-14  sm:p-8">
+                    <h1 class="text-xl  md:text-2xl font-roboto ">
+                        Registro de Usuario
+                    </h1>
+                    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+                    
+                    <form class="space-y-4  " action="#">
+
+                        
+                        <div class="flex items-center space-x-4">
+                            <label for="text" class="text-sm font-normal text-gray-900 font-montserrat">Nombre de usuario</label>
+                            <input type="text" name="text" id="text" class="border border-[#777777] sm:text-sm block w-3/5 p-2.5" placeholder="Ingrese nombre de usuario" required="">
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <label for="email" class="text-sm font-normal text-gray-900 font-montserrat">Dirección de correo</label>
+                            <input type="email" name="email" id="email" class="border border-[#777777] sm:text-sm block w-3/5 p-2.5" placeholder="nombre.apellido@utp.ac.pa" required="">
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <label for="email" class="text-sm font-normal text-gray-900 font-montserrat">Contraseña &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <input type="password" name="password" id="email" class="border border-[#777777] sm:text-sm block w-3/5 p-2.5 mr-40" placeholder="Ingrese una contraseña" required="">
+                        </div>
+                                                
+                        
+                    </form>
+                    <h1 class="text-xl leading-tight tracking-tight text-gray-900 md:text-2xl font-roboto">Identificación</h1>
+                    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
+                    <form class="space-y-4 " action="#">
+                        <div class="flex items-center space-x-4">
+                            <label for="email" class="text-sm font-normal text-gray-900 font-montserrat">Cédula&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <input type="number" name="email" id="email" class="border border-[#777777] sm:text-sm block w-3/5 p-2.5" placeholder="0-0000-0000" required="">
+                        </div>
+                        
+                        <button class=" bg-[#18561E] text-[#FFFFFF] font-bold p-2 ml-48 font-montserrat rounded-lg">Registrarse</button> 
+                        <button class="bg-[#18561E] text-[#FFFFFF] font-bold p-2  ml-14 font-montserrat rounded-lg">Cancelar</button>
+                        
+                    </form>
+
+                </div>
+            </div>
+        </div>
+      </section>
+      
+
+    <!---->
+    <footer class="bg-[#444444] text-white flex flex-col">
+
+      <div class="flex flex-1 mx-16">
+          <div class="w-2/3 p-4 flex items-center">
+              <img src="/public/img/logo.png" class="w-1/4 h-2/3" alt="">
+              <p class="ml-4 font-raleway">
+                  Este sitio es administrado por la Facultad de Ingeniería en Sistemas Computacionales. Proyecto Web donado por el grupo 
+                  <a href="#">1LS121</a> segundo semestre 2023.
+              </p>
+          </div>
+  
+          <div class="w-2/3 p-4 flex flex-col justify-center">
+              <p class=" font-roboto font-bold">Contacto</p>
+              <p class=" font-raleway">Avenida Universidad Tecnológica de Panamá, Vía Puente Centenario, Campus Metropolitano Dr. Víctor Levi Sasso, Edificio No 3, tercer piso.</p>
+              <p class=" font-raleway">
+                  Télefono: (507)
+              </p>
+              <p class=" font-raleway">
+                  E-mail: sindy.delosrios@utp.ac.pa
+              </p>
+          </div>
+  
+          <div class="w-1/3 p-4 flex justify-center items-center">
+              <a class=" mx-1" href="https://www.facebook.com/paginautp">
+                  <img class="w-6" src="/public/img/facebook-icon.png" alt="">
+              </a>
+              <a class=" mx-1" href="https://www.instagram.com/utppanama">
+                  <img class="w-6" src="/public/img/instagram-icon.png" alt="">
+              </a>
+              <a class=" mx-1" href="https://www.youtube.com/user/UTPPanama">
+                  <img class="w-6" src="./img/youtube-icon.svg" alt="">
+              </a>
+              <a class=" mx-1" href="https://pa.linkedin.com/">
+                <img class="w-6" src="/public/img/icons8-linkedin.svg" alt="">
+              </a>
+              <a class=" mx-1" href="https://twitter.com/utppanama">
+                  <img class="w-6" src="./img/x-icon.svg" alt="">
+              </a>
+          </div>
+      </div>
+  
+      <p class=" my-2 text-center font-raleway">©2023 - Universidad Tecnológica de Panamá</p>
+  </footer>
+
+</body>
+</html> 
+
